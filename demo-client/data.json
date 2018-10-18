@@ -1,0 +1,164 @@
+{
+	"campaigns": [ {
+		"id" : 951,
+		"name" : "Test Ad 1",
+		"goal" : "Increase Reach",
+		"totalBudget" : 120,
+		"status" : "Delivering",
+		"platforms" : null
+	}, {
+		"id" : 952,
+		"name" : "Test Ad 2",
+		"goal" : "Raise Awareness",
+		"totalBudget" : 360,
+		"status" : "Ended",
+		"platforms" : null
+	}, {
+		"id" : 953,
+		"name" : "Test Ad 3",
+		"goal" : "Raise Awareness",
+		"totalBudget" : 90,
+		"status" : "Scheduled",
+		"platforms" : null
+	} ],
+	"campaignDetails": {
+		"id" : 951,
+		"name" : "Test Ad 1",
+		"goal" : "Increase Reach",
+		"totalBudget" : 120,
+		"status" : "Delivering",
+		"platforms" : [ {
+			"id" : 1001,
+			"type" : "Facebook",
+			"status" : "Delivering",
+			"totalBudget" : 40,
+			"remainingBudget" : 12,
+			"startDate" : "2018-07-03T01:00:00+03:00",
+			"endDate" : "2018-07-30T01:00:00+03:00",
+			"targetAudiance" : {
+				"id" : 1151,
+				"genders" : "F,M",
+				"ageRange" : "20-66",
+				"languages" : [ "DE", "EN", "FR" ],
+				"locations" : [ "France", "Switzerland", "Germany" ],
+				"interests" : [ "Ubuntu", "DevOps", "Docker", "Google Cloud Platform", "Kubernates", "AWS" ],
+				"keyWords" : [ ]
+			},
+			"creatives" : {
+				"id" : 1051,
+				"header" : "DevOps Made Easy, We Take care of the heavy lifting for you",
+				"header1" : null,
+				"header2" : null,
+				"description" : "DOP SuperHero is where all DevOps is going to happen in the future, join the revolution today!",
+				"url" : "https://example.io",
+				"image" : "img1.jpg"
+			},
+			"insights" : {
+				"id" : 1101,
+				"impression" : 4503,
+				"clicks" : 328,
+				"websiteVisits" : null,
+				"nanosScore" : 5.7,
+				"costPerClick" : 0.88,
+				"clickThroughRate" : 0.09,
+				"advancedKpi1" : 44.5,
+				"advancedKpi2" : 0.0023
+			},
+			"adCampaign" : {
+				"id" : 951,
+				"name" : "Test Ad 1",
+				"goal" : "Increase Reach",
+				"totalBudget" : 120,
+				"status" : "Delivering"
+			}
+		}, {
+			"id" : 1002,
+			"type" : "Instagram",
+			"status" : "Delivering",
+			"totalBudget" : 44,
+			"remainingBudget" : 14,
+			"startDate" : "2018-07-03T01:00:00+03:00",
+			"endDate" : "2018-07-30T01:00:00+03:00",
+			"targetAudiance" : {
+				"id" : 1152,
+				"genders" : "F,M",
+				"ageRange" : "20-66",
+				"languages" : [ "DE", "EN", "FR" ],
+				"locations" : [ "France", "Switzerland", "Germany" ],
+				"interests" : [ "Ubuntu", "DevOps", "Docker", "Google Cloud Platform", "Kubernates", "AWS" ],
+				"keyWords" : [ ]
+			},
+			"creatives" : {
+				"id" : 1052,
+				"header" : "DevOps Made Easy, We Take care of the heavy lifting for you",
+				"header1" : null,
+				"header2" : null,
+				"description" : "DOP SuperHero is where all DevOps is going to happen in the future, join the revolution today!",
+				"url" : "https://example.io",
+				"image" : "img1.jpg"
+			},
+			"insights" : {
+				"id" : 1102,
+				"impression" : 436,
+				"clicks" : 220,
+				"websiteVisits" : 178,
+				"nanosScore" : 5.2,
+				"costPerClick" : 1.28,
+				"clickThroughRate" : 0.43,
+				"advancedKpi1" : 39.0,
+				"advancedKpi2" : 0.00143
+			},
+			"adCampaign" : {
+				"id" : 951,
+				"name" : "Test Ad 1",
+				"goal" : "Increase Reach",
+				"totalBudget" : 120,
+				"status" : "Delivering"
+			}
+		}, {
+			"id" : 1003,
+			"type" : "Google",
+			"status" : "Delivering",
+			"totalBudget" : 36,
+			"remainingBudget" : 24,
+			"startDate" : "2018-07-03T01:00:00+03:00",
+			"endDate" : "2018-07-30T01:00:00+03:00",
+			"targetAudiance" : {
+				"id" : 1153,
+				"genders" : "F,M",
+				"ageRange" : "20-66",
+				"languages" : [ "DE", "EN", "FR" ],
+				"locations" : [ "Belgium", "Poland", "Italy", "United Kingdom", "France", "Switzerland", "Germany", "Spain" ],
+				"interests" : [ ],
+				"keyWords" : [ "Easy DevOps", "DevOps", "DevOps As A Service", "DevOps Automation", "Google Cloud Platform", "AWS", "One Click DevOps", "NoOps" ]
+			},
+			"creatives" : {
+				"id" : 1053,
+				"header" : null,
+				"header1" : "DevOps Made Easy",
+				"header2" : "We Take care of the heavy lifting for you",
+				"description" : "DOP SuperHero is where all DevOps is going to happen in the future, join the revolution today!",
+				"url" : "https://example.io",
+				"image" : "img2.jpg"
+			},
+			"insights" : {
+				"id" : 1103,
+				"impression" : 20436,
+				"clicks" : 420,
+				"websiteVisits" : 378,
+				"nanosScore" : null,
+				"costPerClick" : 0.99,
+				"clickThroughRate" : 0.013,
+				"advancedKpi1" : 3.9,
+				"advancedKpi2" : null
+			},
+			"adCampaign" : {
+				"id" : 951,
+				"name" : "Test Ad 1",
+				"goal" : "Increase Reach",
+				"totalBudget" : 120,
+				"status" : "Delivering"
+			}
+		} ]
+	}
+}

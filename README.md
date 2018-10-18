@@ -1,7 +1,7 @@
 # Fullstack Assesment
 
 ## Demo
-[React App](http://167.99.55.162:3000)  
+[React App](http://167.99.55.162)  
 [Back End](http://167.99.55.162:8080)
 
 ## Stack
